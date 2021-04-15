@@ -18,7 +18,7 @@ public class TransactionController {
     private TransactionRepository transactionRepository;
 
     @GetMapping("transactions")
-    public List<Transaction> getTransactions(){
+    public List <Transaction> getTransactions(){
         return this.transactionRepository.findAll();
     }
 }
