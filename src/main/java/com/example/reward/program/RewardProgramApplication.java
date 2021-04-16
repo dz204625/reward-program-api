@@ -1,5 +1,6 @@
 package com.example.reward.program;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,5 +10,4 @@ public class RewardProgramApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RewardProgramApplication.class, args);
 	}
-
 }
