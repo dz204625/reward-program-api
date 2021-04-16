@@ -27,11 +27,10 @@ public class Transaction {
 
     }
 
-    public Transaction(String product, int amount, String date, int reward) {
+    public Transaction(String product, int amount) {
         this.product = product;
         this.amount = amount;
-        this.date = date;
-        this.reward = reward;
+
     }
 
     public long getId() {
@@ -56,10 +55,6 @@ public class Transaction {
 
     public String getDate() {
         return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
     }
 
     public int getReward() {
